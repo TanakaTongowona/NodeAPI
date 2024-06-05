@@ -12,7 +12,7 @@ const MONGO_URL = process.env.MONGO_URL
 const FRONTEND = process.env.FRONTEND
 
 var corsOptions = {
-    origin: FRONTEND,
+    origin: 'http://localhost:5173',
     optionsSuccessStatus: 200 // some legacy browsers 
 }
 
